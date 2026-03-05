@@ -201,6 +201,7 @@
     flex-direction: row;
     font-size: 157px;
     gap: 65px;
+    padding-top: 100px;
   }
 
   .content {
@@ -312,11 +313,14 @@
   display: grid;
   grid-template-rows: auto 1fr auto;
   position: relative;
+  align-items: center;
 }
 
 .header__title {
     color: var(--title-color);
     text-shadow: 4px 4px 0 var(--accent-color);
+    grid-row: 2;
+    align-self: center;
   }
 
 .header__description {
